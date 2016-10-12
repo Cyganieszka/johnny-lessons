@@ -19,6 +19,9 @@ public class ExerciseClass {
         ArrayList<Integer> result= new ArrayList<Integer>();// lista wyników(pierwiastków), zwrócimy je jako lista, bo mogą być 2,1 albo zero
         // w tym momencie lista jest pusta
 
+        // potęga Math.pow(liczba, potęga)
+        // pierwiastek Math.sqrt(liczba) 
+
 
         //todo policz deltę
 

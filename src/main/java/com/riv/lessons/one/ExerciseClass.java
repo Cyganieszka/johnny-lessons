@@ -20,7 +20,17 @@ public class ExerciseClass {
         // w tym momencie lista jest pusta
 
         // potęga Math.pow(liczba, potęga)
-        // pierwiastek Math.sqrt(liczba) 
+        // pierwiastek Math.sqrt(liczba)
+
+
+        int delta =(b*b)-4*a*c;
+
+        if(delta>0){
+            result.add((int)(-b-Math.sqrt(delta))/(2*a));
+            result.add((int)(-b+Math.sqrt(delta))/(2*a));
+        }else if(delta==0){
+            result.add(-b/2*a);
+        }
 
 
         //todo policz deltę

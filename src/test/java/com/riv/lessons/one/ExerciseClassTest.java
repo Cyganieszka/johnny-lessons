@@ -45,7 +45,7 @@ public class ExerciseClassTest {
     public void testCase4(){
         ArrayList<Integer> result=exercise.calcQuadraticEquation(1,0,0);
         assert (result.size()==1);
-        assert (result.contains(1));
+        assert (result.contains(0));
     }
     @Test
     public void testCase5(){
